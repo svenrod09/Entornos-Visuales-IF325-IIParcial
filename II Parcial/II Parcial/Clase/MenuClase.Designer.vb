@@ -26,6 +26,8 @@ Partial Class MenuClase
         Me.btnArreglos = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.btnLibretaAhorro = New System.Windows.Forms.Button()
+        Me.btnCrud = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'btnMenu
@@ -47,7 +49,7 @@ Partial Class MenuClase
         Me.btnArreglos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray
         Me.btnArreglos.FlatStyle = System.Windows.Forms.FlatStyle.System
         Me.btnArreglos.Font = New System.Drawing.Font("Montserrat", 8.249999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnArreglos.Location = New System.Drawing.Point(209, 103)
+        Me.btnArreglos.Location = New System.Drawing.Point(186, 103)
         Me.btnArreglos.Name = "btnArreglos"
         Me.btnArreglos.Size = New System.Drawing.Size(97, 33)
         Me.btnArreglos.TabIndex = 1
@@ -80,12 +82,40 @@ Partial Class MenuClase
         Me.Button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
         Me.Button1.UseVisualStyleBackColor = True
         '
+        'btnLibretaAhorro
+        '
+        Me.btnLibretaAhorro.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnLibretaAhorro.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray
+        Me.btnLibretaAhorro.FlatStyle = System.Windows.Forms.FlatStyle.System
+        Me.btnLibretaAhorro.Font = New System.Drawing.Font("Montserrat", 8.249999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnLibretaAhorro.Location = New System.Drawing.Point(310, 103)
+        Me.btnLibretaAhorro.Name = "btnLibretaAhorro"
+        Me.btnLibretaAhorro.Size = New System.Drawing.Size(97, 33)
+        Me.btnLibretaAhorro.TabIndex = 4
+        Me.btnLibretaAhorro.Text = "Libreta de Ahorro"
+        Me.btnLibretaAhorro.UseVisualStyleBackColor = True
+        '
+        'btnCrud
+        '
+        Me.btnCrud.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnCrud.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray
+        Me.btnCrud.FlatStyle = System.Windows.Forms.FlatStyle.System
+        Me.btnCrud.Font = New System.Drawing.Font("Montserrat", 8.249999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnCrud.Location = New System.Drawing.Point(442, 103)
+        Me.btnCrud.Name = "btnCrud"
+        Me.btnCrud.Size = New System.Drawing.Size(97, 33)
+        Me.btnCrud.TabIndex = 5
+        Me.btnCrud.Text = "CRUD"
+        Me.btnCrud.UseVisualStyleBackColor = True
+        '
         'MenuClase
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.Window
         Me.ClientSize = New System.Drawing.Size(620, 365)
+        Me.Controls.Add(Me.btnCrud)
+        Me.Controls.Add(Me.btnLibretaAhorro)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.btnArreglos)
@@ -102,4 +132,6 @@ Partial Class MenuClase
     Friend WithEvents btnArreglos As Button
     Friend WithEvents Label1 As Label
     Friend WithEvents Button1 As Button
+    Friend WithEvents btnLibretaAhorro As Button
+    Friend WithEvents btnCrud As Button
 End Class

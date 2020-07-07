@@ -72,10 +72,23 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Clase\conexion.vb" />
     <Compile Include="Clase\frmArreglosVectores.Designer.vb">
       <DependentUpon>frmArreglosVectores.vb</DependentUpon>
     </Compile>
     <Compile Include="Clase\frmArreglosVectores.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clase\frmEstudiante.Designer.vb">
+      <DependentUpon>frmEstudiante.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Clase\frmEstudiante.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clase\frmLibretaAhorro.Designer.vb">
+      <DependentUpon>frmLibretaAhorro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Clase\frmLibretaAhorro.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Clase\MenuEjemplo.Designer.vb">
@@ -88,6 +101,24 @@
       <DependentUpon>MenuClase.vb</DependentUpon>
     </Compile>
     <Compile Include="Clase\MenuClase.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tarea\facturaSencilla.Designer.vb">
+      <DependentUpon>facturaSencilla.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tarea\facturaSencilla.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tarea\operacionesConPotenciaYRaiz.Designer.vb">
+      <DependentUpon>operacionesConPotenciaYRaiz.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tarea\operacionesConPotenciaYRaiz.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tarea\ParesImpares.Designer.vb">
+      <DependentUpon>ParesImpares.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tarea\ParesImpares.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Tarea\entregaBolsaSolidaria.Designer.vb">
@@ -123,16 +154,37 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Tarea\RegistroProductos.Designer.vb">
+      <DependentUpon>RegistroProductos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Tarea\RegistroProductos.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Clase\frmArreglosVectores.resx">
       <DependentUpon>frmArreglosVectores.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Clase\frmEstudiante.resx">
+      <DependentUpon>frmEstudiante.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Clase\frmLibretaAhorro.resx">
+      <DependentUpon>frmLibretaAhorro.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Clase\MenuEjemplo.resx">
       <DependentUpon>MenuEjemplo.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Clase\MenuClase.resx">
       <DependentUpon>MenuClase.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tarea\facturaSencilla.resx">
+      <DependentUpon>facturaSencilla.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tarea\operacionesConPotenciaYRaiz.resx">
+      <DependentUpon>operacionesConPotenciaYRaiz.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tarea\ParesImpares.resx">
+      <DependentUpon>ParesImpares.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Tarea\entregaBolsaSolidaria.resx">
       <DependentUpon>entregaBolsaSolidaria.vb</DependentUpon>
@@ -148,6 +200,9 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tarea\RegistroProductos.resx">
+      <DependentUpon>RegistroProductos.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

@@ -10,4 +10,12 @@
     Private Sub btnArreglos_Click(sender As Object, e As EventArgs) Handles btnArreglos.Click
         frmArreglosVectores.Show()
     End Sub
+
+    Private Sub btnLibretaAhorro_Click(sender As Object, e As EventArgs) Handles btnLibretaAhorro.Click
+        frmLibretaAhorro.Show()
+    End Sub
+
+    Private Sub btnCrud_Click(sender As Object, e As EventArgs) Handles btnCrud.Click
+        frmEstudiante.Show()
+    End Sub
 End Class
