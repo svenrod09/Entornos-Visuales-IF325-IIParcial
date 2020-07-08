@@ -48,6 +48,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.configuration" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
@@ -101,6 +102,12 @@
       <DependentUpon>MenuClase.vb</DependentUpon>
     </Compile>
     <Compile Include="Clase\MenuClase.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Examen\frmVentas.Designer.vb">
+      <DependentUpon>frmVentas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Examen\frmVentas.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Tarea\facturaSencilla.Designer.vb">
@@ -176,6 +183,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Clase\MenuClase.resx">
       <DependentUpon>MenuClase.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Examen\frmVentas.resx">
+      <DependentUpon>frmVentas.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Tarea\facturaSencilla.resx">
       <DependentUpon>facturaSencilla.vb</DependentUpon>
